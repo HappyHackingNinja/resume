@@ -1,0 +1,26 @@
+#banner-info .title {
+    display: inline-block;
+    color: #fff;
+    line-height: 26px;
+}
+
+#banner-info .content {
+    display:  inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+}
+
+.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.mdi-ul, ul, ul li {
+    list-style-type: none;
+}
+
+legend, ul {
+    padding: 0;
+}
