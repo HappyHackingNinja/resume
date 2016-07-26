@@ -29,3 +29,79 @@ legend, ul {
     font-size: 48px;
     line-height: 48px;
 }
+
+#interest {
+    background: #fff;
+}
+
+#interest-icons {
+    font-size: 3em;
+}
+
+#interest-icons span{
+    display: block;
+    font-size: 16px;
+}
+
+.kcd-timeline {
+    text-align: left;
+    position: relative;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.kcd-timeline::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #d7e4ed;
+}
+
+.cd-timeline-img h6 {
+    text-align: center;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.29);
+}
+
+.cd-timeline-content{
+    padding-top: 1px;
+}
+
+.cd-timeline-block h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cd-timeline-block h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.4;
+}
+
+@media only screen and (min-width: 1170px) {
+    .kcd-timeline {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .kcd-timeline::before {
+        left: 50%;
+        margin-left: -2px;
+    }
+
+    .cd-timeline-img h6 {
+        font-size: 34px;
+        margin-top: 12px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+    }
+}
+
+
