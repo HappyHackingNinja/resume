@@ -24,3 +24,8 @@
 legend, ul {
     padding: 0;
 }
+
+.social li a .fa {
+    font-size: 48px;
+    line-height: 48px;
+}
