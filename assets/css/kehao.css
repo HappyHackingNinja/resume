@@ -144,4 +144,6 @@ legend, ul {
     top: 36px;
     left: 21px;
     -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
 }
